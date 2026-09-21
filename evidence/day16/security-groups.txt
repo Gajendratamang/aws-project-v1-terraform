@@ -1,0 +1,129 @@
+﻿{
+    "SecurityGroups": [
+        {
+            "GroupId": "sg-0473b74b5f8403502",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Allow all outbound",
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "Lab"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "aws-project-v1-alb-sg"
+                },
+                {
+                    "Key": "ManagedBy",
+                    "Value": "Terraform"
+                },
+                {
+                    "Key": "Project",
+                    "Value": "Project-V1"
+                }
+            ],
+            "VpcId": "vpc-0a4e6c8d18e644b71",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-2:123456789012:security-group/sg-0473b74b5f8403502",
+            "OwnerId": "123456789012",
+            "GroupName": "aws-project-v1-alb-sg",
+            "Description": "Allow HTTP traffic to the Application Load Balancer",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "HTTP from internet",
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        },
+        {
+            "GroupId": "sg-0e1b035cf722549c9",
+            "IpPermissionsEgress": [
+                {
+                    "IpProtocol": "-1",
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "Allow all outbound",
+                            "CidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "Project-V1"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "aws-project-v1-web-sg"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "Lab"
+                }
+            ],
+            "VpcId": "vpc-0a4e6c8d18e644b71",
+            "SecurityGroupArn": "arn:aws:ec2:eu-west-2:123456789012:security-group/sg-0e1b035cf722549c9",
+            "OwnerId": "123456789012",
+            "GroupName": "aws-project-v1-web-sg",
+            "Description": "Allow web traffic and restricted SSH",
+            "IpPermissions": [
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 80,
+                    "ToPort": 80,
+                    "UserIdGroupPairs": [
+                        {
+                            "Description": "HTTP from ALB",
+                            "UserId": "123456789012",
+                            "GroupId": "sg-0473b74b5f8403502"
+                        }
+                    ],
+                    "IpRanges": [],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                },
+                {
+                    "IpProtocol": "tcp",
+                    "FromPort": 22,
+                    "ToPort": 22,
+                    "UserIdGroupPairs": [],
+                    "IpRanges": [
+                        {
+                            "Description": "SSH from home IP",
+                            "CidrIp": "203.0.113.10/32"
+                        }
+                    ],
+                    "Ipv6Ranges": [],
+                    "PrefixListIds": []
+                }
+            ]
+        }
+    ]
+}
+
+

@@ -1,0 +1,20 @@
+﻿<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-06781f3168a183eaf</p><p>Availability Zone: eu-west-2b</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-0dbe8fcd3fae006a2</p><p>Availability Zone: eu-west-2a</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-06781f3168a183eaf</p><p>Availability Zone: eu-west-2b</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-0dbe8fcd3fae006a2</p><p>Availability Zone: eu-west-2a</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-06781f3168a183eaf</p><p>Availability Zone: eu-west-2b</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-0dbe8fcd3fae006a2</p><p>Availability Zone: eu-west-2a</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-06781f3168a183eaf</p><p>Availability Zone: eu-west-2b</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-0dbe8fcd3fae006a2</p><p>Availability Zone: eu-west-2a</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-06781f3168a183eaf</p><p>Availability Zone: eu-west-2b</p>
+
+<h1>AWS Project V1</h1><p>Auto Scaling Instance: i-0dbe8fcd3fae006a2</p><p>Availability Zone: eu-west-2a</p>
+

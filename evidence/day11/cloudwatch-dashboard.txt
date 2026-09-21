@@ -1,0 +1,6 @@
+﻿{
+    "DashboardArn": "arn:aws:cloudwatch::123456789012:dashboard/aws-project-v1-dashboard",
+    "DashboardBody": "{\"widgets\":[{\"height\":6,\"properties\":{\"metrics\":[[\"AWS/EC2\",\"CPUUtilization\",\"AutoScalingGroupName\",\"aws-project-v1-web-asg\"]],\"period\":300,\"region\":\"eu-west-2\",\"stat\":\"Average\",\"title\":\"ASG Average CPU Utilisation\",\"view\":\"timeSeries\"},\"type\":\"metric\",\"width\":12,\"x\":0,\"y\":0},{\"height\":6,\"properties\":{\"metrics\":[[\"AWS/ApplicationELB\",\"HealthyHostCount\",\"TargetGroup\",\"targetgroup/aws-project-v1-web-tg/157efde1e8685f0d\",\"LoadBalancer\",\"app/aws-project-v1-alb/51fe06bcc529338e\"],[\"AWS/ApplicationELB\",\"UnHealthyHostCount\",\"TargetGroup\",\"targetgroup/aws-project-v1-web-tg/157efde1e8685f0d\",\"LoadBalancer\",\"app/aws-project-v1-alb/51fe06bcc529338e\"]],\"period\":300,\"region\":\"eu-west-2\",\"stat\":\"Maximum\",\"title\":\"ALB Target Health\",\"view\":\"timeSeries\"},\"type\":\"metric\",\"width\":12,\"x\":12,\"y\":0},{\"height\":6,\"properties\":{\"metrics\":[[\"AWS/ApplicationELB\",\"RequestCount\",\"LoadBalancer\",\"app/aws-project-v1-alb/51fe06bcc529338e\"]],\"period\":300,\"region\":\"eu-west-2\",\"stat\":\"Sum\",\"title\":\"ALB Request Count\",\"view\":\"timeSeries\"},\"type\":\"metric\",\"width\":24,\"x\":0,\"y\":6}]}",
+    "DashboardName": "aws-project-v1-dashboard"
+}
+

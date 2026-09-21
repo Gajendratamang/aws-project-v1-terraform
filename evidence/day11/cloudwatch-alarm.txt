@@ -1,0 +1,40 @@
+﻿{
+    "MetricAlarms": [
+        {
+            "AlarmName": "aws-project-v1-unhealthy-targets",
+            "AlarmArn": "arn:aws:cloudwatch:eu-west-2:123456789012:alarm:aws-project-v1-unhealthy-targets",
+            "AlarmDescription": "Alert when the ALB has one or more unhealthy targets",
+            "AlarmConfigurationUpdatedTimestamp": "2026-09-21T10:35:54.460000+01:00",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: no datapoints were received for 2 periods and 2 missing datapoints were treated as [NonBreaching].",
+            "StateReasonData": "{\"version\":\"1.0\",\"queryDate\":\"2026-09-21T09:37:10.054+0000\",\"statistic\":\"Maximum\",\"period\":300,\"recentDatapoints\":[],\"threshold\":1.0,\"evaluatedDatapoints\":[{\"timestamp\":\"2026-09-21T09:30:00.000+0000\"}]}",
+            "StateUpdatedTimestamp": "2026-09-21T10:37:10.056000+01:00",
+            "MetricName": "UnHealthyHostCount",
+            "Namespace": "AWS/ApplicationELB",
+            "Statistic": "Maximum",
+            "Dimensions": [
+                {
+                    "Name": "TargetGroup",
+                    "Value": "targetgroup/aws-project-v1-web-tg/157efde1e8685f0d"
+                },
+                {
+                    "Name": "LoadBalancer",
+                    "Value": "app/aws-project-v1-alb/51fe06bcc529338e"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 2,
+            "Threshold": 1.0,
+            "ComparisonOperator": "GreaterThanOrEqualToThreshold",
+            "TreatMissingData": "notBreaching",
+            "StateTransitionedTimestamp": "2026-09-21T10:37:10.056000+01:00"
+        }
+    ],
+    "CompositeAlarms": [],
+    "LogAlarms": []
+}
+

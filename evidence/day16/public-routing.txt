@@ -1,0 +1,59 @@
+﻿{
+    "RouteTables": [
+        {
+            "Associations": [
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-0dca19237a3c6ff05",
+                    "RouteTableId": "rtb-02394b863f74317cf",
+                    "SubnetId": "subnet-0c222d854e76ca918",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                },
+                {
+                    "Main": false,
+                    "RouteTableAssociationId": "rtbassoc-069d0d32687391f05",
+                    "RouteTableId": "rtb-02394b863f74317cf",
+                    "SubnetId": "subnet-0911ecac5a10a6b57",
+                    "AssociationState": {
+                        "State": "associated"
+                    }
+                }
+            ],
+            "PropagatingVgws": [],
+            "RouteTableId": "rtb-02394b863f74317cf",
+            "Routes": [
+                {
+                    "DestinationCidrBlock": "10.10.0.0/16",
+                    "GatewayId": "local",
+                    "Origin": "CreateRouteTable",
+                    "State": "active"
+                },
+                {
+                    "DestinationCidrBlock": "0.0.0.0/0",
+                    "GatewayId": "igw-08a066eebd39fb557",
+                    "Origin": "CreateRoute",
+                    "State": "active"
+                }
+            ],
+            "Tags": [
+                {
+                    "Key": "Project",
+                    "Value": "Project-V1"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "Lab"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "aws-project-v1-public-rt"
+                }
+            ],
+            "VpcId": "vpc-0a4e6c8d18e644b71",
+            "OwnerId": "123456789012"
+        }
+    ]
+}
+
