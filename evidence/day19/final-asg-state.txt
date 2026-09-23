@@ -1,0 +1,19 @@
+﻿[
+    2,
+    2,
+    4,
+    [
+        [
+            "i-09625f912c7363c3f",
+            "eu-west-2a",
+            "InService",
+            "Healthy"
+        ],
+        [
+            "i-0c47020ed1c980ed6",
+            "eu-west-2b",
+            "InService",
+            "Healthy"
+        ]
+    ]
+]
