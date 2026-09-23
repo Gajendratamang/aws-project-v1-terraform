@@ -1,0 +1,27 @@
+﻿module.network.aws_vpc.project_v1: Refreshing state... [id=vpc-0b97139d26060e1d7]
+module.network.aws_internet_gateway.project_v1_igw: Refreshing state... [id=igw-0cd871207bf181133]
+module.network.aws_subnet.public_b: Refreshing state... [id=subnet-046fe06c74b486c60]
+module.network.aws_route_table.private_rt: Refreshing state... [id=rtb-035494ca345db363c]
+module.network.aws_subnet.private_b: Refreshing state... [id=subnet-0d77db57fe4d0a65b]
+module.network.aws_subnet.public_a: Refreshing state... [id=subnet-0204ed901363a3fc9]
+module.network.aws_subnet.private_a: Refreshing state... [id=subnet-05466a2149e7a6222]
+aws_lb_target_group.web_tg: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-2:123456789012:targetgroup/aws-project-v1-web-tg/014f95f95e3b6707]
+aws_security_group.alb_sg: Refreshing state... [id=sg-08e4a68eaca91503d]
+module.network.aws_route_table.public_rt: Refreshing state... [id=rtb-0e50d9149257ed980]
+aws_security_group.web_sg: Refreshing state... [id=sg-0505f81bc61c064ab]
+module.network.aws_route_table_association.private_b: Refreshing state... [id=rtbassoc-0e0827a1197498c7a]
+module.network.aws_route_table_association.public_b: Refreshing state... [id=rtbassoc-0d1e318d59a5e55f4]
+module.network.aws_route_table_association.public_a: Refreshing state... [id=rtbassoc-025734bc6c4dfac9d]
+module.network.aws_route_table_association.private_a: Refreshing state... [id=rtbassoc-05f963650a51dfa23]
+aws_launch_template.web_lt: Refreshing state... [id=lt-0b2583c38af64f0ed]
+aws_lb.web_alb: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-2:123456789012:loadbalancer/app/aws-project-v1-alb/548a78e98b7eb611]
+aws_autoscaling_group.web_asg: Refreshing state... [id=aws-project-v1-web-asg]
+aws_cloudwatch_metric_alarm.unhealthy_targets: Refreshing state... [id=aws-project-v1-unhealthy-targets]
+aws_lb_listener.http: Refreshing state... [id=arn:aws:elasticloadbalancing:eu-west-2:123456789012:listener/app/aws-project-v1-alb/548a78e98b7eb611/6ff4e75eda9352b2]
+aws_cloudwatch_dashboard.project_v1: Refreshing state... [id=aws-project-v1-dashboard]
+aws_autoscaling_policy.cpu_target: Refreshing state... [id=aws-project-v1-cpu-target]
+
+No changes. Your infrastructure matches the configuration.
+
+Terraform has compared your real infrastructure against your configuration
+and found no differences, so no changes are needed.
