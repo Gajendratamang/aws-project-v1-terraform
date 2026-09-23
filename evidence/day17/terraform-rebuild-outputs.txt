@@ -1,0 +1,5 @@
+﻿alb_dns_name = "aws-project-v1-alb-1300159907.eu-west-2.elb.amazonaws.com"
+public_subnet_a_id = "subnet-0204ed901363a3fc9"
+public_subnet_b_id = "subnet-046fe06c74b486c60"
+vpc_id = "vpc-0b97139d26060e1d7"
+web_security_group_id = "sg-0505f81bc61c064ab"
